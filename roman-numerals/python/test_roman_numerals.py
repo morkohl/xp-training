@@ -1,11 +1,10 @@
-import unittest
-
-
-class RomanNumeralsTest(unittest.TestCase):
-    def test_arabic_1_converts_to_roman_I(self):
-        actual = convert(1)
-        self.assertEqual(actual, "I")
+import pytest
 
 
 def convert(arabic):
     return "I"
+
+
+def test_arabic_1_converts_to_roman_I():
+    actual = convert(1)
+    assert actual == "I"
