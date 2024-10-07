@@ -1,20 +1,12 @@
-# XP Training Codespaces
+# XP Training
 
-1. Erstelle einen neuen Codespace in diesem Repository
+## Requirements
 
-2. Installiere das "Python" Plugin
+- Python 3.7+
+- [mob](https://mob.sh/), test that you can execute `mob moo`
 
-3. Öffne ein neues Terminal und führe folgende Befehle aus:
+## Roman Numerals
 
-```bash
-cd roman-numerals/python
-make setup
-```
+[Arabic to roman number converter](roman-numerals/python/README.md)
 
-4. Führe die Tests aus:
-
-```bash
-make test
-```
-
-5. Happy Coding 🚀
+[Tennis game](tennis-game/python/README.md)
