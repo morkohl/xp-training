@@ -75,15 +75,15 @@ class TennisGame2:
             result = "Advantage player2"
 
         if (
-                self.p1points >= 4
-                and self.p2points >= 0
-                and (self.p1points - self.p2points) >= 2
+            self.p1points >= 4
+            and self.p2points >= 0
+            and (self.p1points - self.p2points) >= 2
         ):
             result = "Win for player1"
         if (
-                self.p2points >= 4
-                and self.p1points >= 0
-                and (self.p2points - self.p1points) >= 2
+            self.p2points >= 4
+            and self.p1points >= 0
+            and (self.p2points - self.p1points) >= 2
         ):
             result = "Win for player2"
         return result
